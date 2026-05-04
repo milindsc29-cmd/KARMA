@@ -1,0 +1,14 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e4]:
+    - heading "KARMS Admin" [level=1] [ref=e5]
+    - paragraph [ref=e6]: Kissan Agro Reforms and Management Systems
+    - generic [ref=e7]:
+      - generic [ref=e8]:
+        - generic [ref=e9]: Admin Password
+        - textbox "Admin Password" [ref=e10]:
+          - /placeholder: Enter admin password
+      - button "Login" [ref=e11]
+    - paragraph [ref=e12]: "Default password: admin123"
+  - button "Open Next.js Dev Tools" [ref=e18] [cursor=pointer]:
+    - img [ref=e19]
+  - alert [ref=e22]
