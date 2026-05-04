@@ -1,0 +1,155 @@
+- main [ref=e3]:
+  - generic [ref=e4]:
+    - generic [ref=e5]:
+      - generic [ref=e6]:
+        - generic [ref=e7]: Welcome to
+        - heading "KARMA Organic & Dragon Fruit Farms" [level=1] [ref=e8]:
+          - text: KARMA Organic &
+          - generic [ref=e9]: Dragon Fruit Farms
+      - paragraph [ref=e10]: Where sustainable agriculture meets dragon fruit excellence. Cultivating trust, community, and the future of ethical farming.
+      - generic [ref=e11]:
+        - button "Join the Harvest" [ref=e12]
+        - button "Learn Our Story" [ref=e13]
+      - generic [ref=e14]:
+        - generic [ref=e15]:
+          - paragraph [ref=e16]: "2"
+          - paragraph [ref=e17]: Acres of Excellence
+        - generic [ref=e18]:
+          - paragraph [ref=e19]: 100%
+          - paragraph [ref=e20]: Organic
+        - generic [ref=e21]:
+          - paragraph [ref=e22]: ∞
+          - paragraph [ref=e23]: Sustainable
+    - img [ref=e25]
+  - generic [ref=e29]:
+    - generic [ref=e30]:
+      - text: Our Foundation
+      - heading "The Trust" [level=2] [ref=e31]
+      - paragraph [ref=e32]: "KARMA is built on four pillars of trust: purity in our methods, community in our hearts, stewardship of the earth, and excellence in every harvest."
+    - generic [ref=e33]:
+      - generic [ref=e34]:
+        - generic [ref=e35]: 🌱
+        - heading "Pure Cultivation" [level=3] [ref=e36]
+        - paragraph [ref=e37]: 100% organic practices without synthetic pesticides. We nurture soil health and biodiversity with every harvest.
+      - generic [ref=e38]:
+        - generic [ref=e39]: 🤝
+        - heading "Community First" [level=3] [ref=e40]
+        - paragraph [ref=e41]: Direct relationships with our community. Transparency in every step of our journey from seed to table.
+      - generic [ref=e42]:
+        - generic [ref=e43]: 🌍
+        - heading "Environmental Stewardship" [level=3] [ref=e44]
+        - paragraph [ref=e45]: Carbon-neutral farming methods that regenerate ecosystems. We farm for future generations.
+      - generic [ref=e46]:
+        - generic [ref=e47]: 💎
+        - heading "Dragon Fruit Excellence" [level=3] [ref=e48]
+        - paragraph [ref=e49]: Premium dragon fruit cultivation with superior flavor and nutritional value. Our specialty and our passion.
+  - generic [ref=e52]:
+    - generic [ref=e53]:
+      - text: Our Evolution
+      - heading "The 2-Acre Journey" [level=2] [ref=e54]
+      - paragraph [ref=e55]: Building in public. Sharing our transformation from vision to thriving sustainable farm.
+    - generic [ref=e58]:
+      - generic [ref=e62]:
+        - generic [ref=e63]: 🌍
+        - paragraph [ref=e64]: Phase 1
+        - heading "Foundation & Land Preparation" [level=3] [ref=e65]
+        - paragraph [ref=e66]: Year 1
+        - paragraph [ref=e67]: Soil analysis, land conditioning, and infrastructure setup. Building the foundation for success.
+      - generic [ref=e71]:
+        - generic [ref=e72]: 🌱
+        - paragraph [ref=e73]: Phase 2
+        - heading "Dragon Fruit Sapling Cultivation" [level=3] [ref=e74]
+        - paragraph [ref=e75]: Year 1-2
+        - paragraph [ref=e76]: Sourcing premium dragon fruit varieties and establishing young plants with proper irrigation.
+      - generic [ref=e80]:
+        - generic [ref=e81]: 🌿
+        - paragraph [ref=e82]: Phase 3
+        - heading "Growth & Development" [level=3] [ref=e83]
+        - paragraph [ref=e84]: Year 2-3
+        - paragraph [ref=e85]: Nurturing growth, implementing organic pest management, and building biodiversity.
+      - generic [ref=e89]:
+        - generic [ref=e90]: 🐉
+        - paragraph [ref=e91]: Phase 4
+        - heading "First Harvest" [level=3] [ref=e92]
+        - paragraph [ref=e93]: Year 3-4
+        - paragraph [ref=e94]: Celebrating first yields of premium dragon fruit. Beginning direct community distribution.
+      - generic [ref=e98]:
+        - generic [ref=e99]: 🌟
+        - paragraph [ref=e100]: Phase 5
+        - heading "Scale & Impact" [level=3] [ref=e101]
+        - paragraph [ref=e102]: Year 4+
+        - paragraph [ref=e103]: Expanding sustainable practices, mentoring other farmers, and creating a ripple effect.
+  - generic [ref=e106]:
+    - heading "Join the KARMS Community" [level=2] [ref=e107]
+    - paragraph [ref=e108]: Kissan Agro Reforms and Management Systems - Connect with fellow farmers and innovators
+    - generic [ref=e109]:
+      - generic [ref=e110]:
+        - generic [ref=e111]: Full Name *
+        - textbox "Full Name *" [ref=e112]:
+          - /placeholder: Your name
+      - generic [ref=e113]:
+        - generic [ref=e114]: Role *
+        - textbox "Role *" [ref=e115]:
+          - /placeholder: e.g., Farmer, Agri-Tech Expert, Researcher
+      - generic [ref=e116]:
+        - generic [ref=e117]: Bio (Optional)
+        - textbox "Bio (Optional)" [ref=e118]:
+          - /placeholder: Tell us about yourself...
+      - generic [ref=e119]:
+        - generic [ref=e120]: Avatar URL (Optional)
+        - textbox "Avatar URL (Optional)" [ref=e121]:
+          - /placeholder: https://example.com/avatar.jpg
+      - button "Join KARMS Community" [ref=e122]
+  - generic [ref=e125]:
+    - generic [ref=e126]:
+      - text: Be Part of the Story
+      - heading "Join the Harvest Waitlist" [level=2] [ref=e127]
+      - paragraph [ref=e128]: Get exclusive updates about our farm, first access to dragon fruit harvests, and behind-the-scenes insights.
+    - generic [ref=e130]:
+      - generic [ref=e131]:
+        - generic [ref=e132]: Full Name
+        - textbox "Full Name" [ref=e133]:
+          - /placeholder: Your name
+      - generic [ref=e134]:
+        - generic [ref=e135]: Email Address
+        - textbox "Email Address" [ref=e136]:
+          - /placeholder: your@email.com
+      - button "Join the Harvest Waitlist" [ref=e137]
+      - paragraph [ref=e138]: We respect your privacy. You'll only receive updates about KARMA farm and our dragon fruit harvests.
+    - generic [ref=e139]:
+      - generic [ref=e140]:
+        - paragraph [ref=e141]: 100%
+        - paragraph [ref=e142]: Organic
+      - generic [ref=e143]:
+        - paragraph [ref=e144]: "2"
+        - paragraph [ref=e145]: Acres
+      - generic [ref=e146]:
+        - paragraph [ref=e147]: 🌱
+        - paragraph [ref=e148]: Sustainable
+  - generic [ref=e150]:
+    - generic [ref=e151]:
+      - generic [ref=e152]:
+        - heading "KARMA" [level=3] [ref=e153]
+        - paragraph [ref=e154]: Organic & Dragon Fruit Farms. Building a sustainable future through ethical agriculture.
+      - generic [ref=e155]:
+        - heading "Quick Links" [level=4] [ref=e156]
+        - list [ref=e157]:
+          - listitem [ref=e158]:
+            - link "Our Story" [ref=e159] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=e160]:
+            - link "Blog" [ref=e161] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=e162]:
+            - link "Contact" [ref=e163] [cursor=pointer]:
+              - /url: "#"
+      - generic [ref=e164]:
+        - heading "Follow Us" [level=4] [ref=e165]
+        - generic [ref=e166]:
+          - link "I" [ref=e167] [cursor=pointer]:
+            - /url: "#"
+          - link "T" [ref=e168] [cursor=pointer]:
+            - /url: "#"
+          - link "F" [ref=e169] [cursor=pointer]:
+            - /url: "#"
+    - paragraph [ref=e171]: © 2026 KARMA Organic & Dragon Fruit Farms. All rights reserved. | Cultivating trust, one harvest at a time.
