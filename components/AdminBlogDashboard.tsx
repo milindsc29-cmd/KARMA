@@ -14,6 +14,7 @@ interface Blog extends BlogInput {
 export default function AdminBlogDashboard() {
   const [blogs, setBlogs] = useState<Blog[]>([]);
   const [isLoading, setIsLoading] = useState(true);
+  const [loadError, setLoadError] = useState<string | null>(null);
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [errors, setErrors] = useState<Record<string, string>>({});
   const [successMessage, setSuccessMessage] = useState('');
@@ -25,10 +26,13 @@ export default function AdminBlogDashboard() {
 
   const loadBlogs = async () => {
     try {
+      setLoadError(null);
       const data = await getAllBlogs();
       setBlogs(data);
     } catch (error) {
+      const errorMsg = error instanceof Error ? error.message : 'Failed to load blogs';
       console.error('Failed to load blogs:', error);
+      setLoadError(errorMsg);
     } finally {
       setIsLoading(false);
     }
@@ -230,6 +234,21 @@ export default function AdminBlogDashboard() {
         {/* Blog List */}
         <div className="bg-white rounded-lg shadow-lg p-8 border-l-4 border-dragon-pink">
           <h2 className="text-2xl font-bold text-forest-green mb-6">Published Blogs</h2>
+
+          {loadError && (
+            <div className="bg-yellow-100 border-l-4 border-yellow-600 p-4 rounded mb-6">
+              <p className="text-yellow-700 font-semibold mb-2">⚠️ Configuration Required</p>
+              <p className="text-yellow-600 text-sm mb-2">{loadError}</p>
+              <p className="text-yellow-600 text-sm">To enable the blog system:</p>
+              <ol className="text-yellow-600 text-sm list-decimal list-inside ml-2">
+                <li>Create a Supabase project at https://supabase.com</li>
+                <li>Copy your Project URL and Anon Key</li>
+                <li>Update .env.local with NEXT_PUBLIC_SUPABASE_URL and NEXT_PUBLIC_SUPABASE_ANON_KEY</li>
+                <li>Run the SQL migration in your Supabase dashboard</li>
+                <li>Refresh this page</li>
+              </ol>
+            </div>
+          )}
 
           {isLoading ? (
             <p className="text-forest-green/60">Loading blogs...</p>

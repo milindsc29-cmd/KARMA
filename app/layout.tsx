@@ -37,12 +37,6 @@ export default function RootLayout({
     >
       <body 
         className="min-h-full flex flex-col bg-cream text-forest-green"
-        style={{
-          backgroundImage: 'url(/watermarked_img_11443283127393356644.png)',
-          backgroundAttachment: 'fixed',
-          backgroundSize: 'cover',
-          backgroundPosition: 'center',
-        }}
       >
         <div className="flex flex-col min-h-screen relative">
           {children}
