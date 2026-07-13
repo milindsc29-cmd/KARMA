@@ -15,12 +15,12 @@ const playfair = Playfair_Display({
 });
 
 export const metadata: Metadata = {
-  title: "KARMA - KARMS Agricultural Platform",
-  description: "KARMA powered by KARMS (Kissan Agro Reforms and Management Systems). Sustainable organic farming with dragon fruit cultivation.",
-  keywords: ["organic farming", "dragon fruit", "sustainable agriculture", "KARMS", "Kissan Agro Reforms"],
+  title: "KARMA Dragon Fruit Farms",
+  description: "Investor-ready dashboard for KARMA Dragon Fruit Farms, showcasing farm operations, investment tracking, and buyer negotiation metrics.",
+  keywords: ["dragon fruit", "farm dashboard", "agriculture finance", "investor dashboard", "KARMA"],
   openGraph: {
-    title: "KARMA - KARMS Agricultural Platform",
-    description: "Sustainable organic farming with dragon fruit cultivation, powered by KARMS",
+    title: "KARMA Dragon Fruit Farms",
+    description: "Investor-ready dashboard for KARMA Dragon Fruit Farms",
     type: "website",
   },
 };
@@ -35,10 +35,8 @@ export default function RootLayout({
       lang="en"
       className={`${poppins.variable} ${playfair.variable} h-full antialiased`}
     >
-      <body 
-        className="min-h-full flex flex-col bg-cream text-forest-green"
-      >
-        <div className="flex flex-col min-h-screen relative">
+      <body className="min-h-full bg-[linear-gradient(135deg,_#fefdf7_0%,_#eefbf4_100%)] text-forest-green">
+        <div className="relative flex min-h-screen flex-col">
           {children}
         </div>
       </body>
