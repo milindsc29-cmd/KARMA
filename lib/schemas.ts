@@ -45,7 +45,7 @@ export function validateData<T>(schema: z.ZodSchema, data: unknown): { success: 
     return { success: true, data: validated as T };
   } catch (error) {
     if (error instanceof z.ZodError) {
-      const errors = error.errors.reduce((acc, err) => {
+      const errors = error.issues.reduce((acc, err) => {
         const path = err.path.join('.');
         acc[path] = err.message;
         return acc;

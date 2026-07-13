@@ -38,7 +38,7 @@ export default function CommunityForm({ onMemberAdded }: CommunityFormProps) {
       communitySchema.parse(input);
     } catch (error) {
       if (error instanceof z.ZodError) {
-        const newErrors = error.errors.reduce((acc, err) => {
+        const newErrors = error.issues.reduce((acc, err) => {
           acc[err.path.join('.')] = err.message;
           return acc;
         }, {} as Record<string, string>);
